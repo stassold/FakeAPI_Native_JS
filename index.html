@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="index.css" type="text/css"/>
+<title>JS Fake API</title>
+</head>
+<body>
+<div id="root" class="root">
+    <span>Products</span>
+    <div>
+        <input type="radio" name="sort" value="name" id="sort_name" > По названию
+        <input type="radio" name="sort" value="price" id="sort_price"> По возрастанию цены
+        <button id = "cancel_sort">Сброс сортировки</button>
+    </div>
+    <div id="products"></div>
+    <input type="number" min="1" value="10" id="limit" class="limit_input">
+    <div id="modal" class="modal_windows">Modal Windows
+        <div id="modal_description">description</div>
+        <div id ="modal_price">price</div>
+        <div id = "modal_brand">brand</div>
+        <img id="modal_image" class="modal_image">
+    </div>
+</div>
+
+
+<script src="index.js"></script>
+
+</body>

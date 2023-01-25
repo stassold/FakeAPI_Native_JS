@@ -1,0 +1,45 @@
+body{
+    background-color: dodgerblue;
+    padding: 30px;
+}
+
+.root{
+    background-color: brown;
+    padding: 30px;
+    position: relative;
+}
+
+.modal_windows{
+    background-color: azure;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 0px;
+    display: none;
+}
+
+
+
+.item_product{
+    background-color: rgb(52, 52, 150);
+    border-style: solid;
+    height: 50px;
+    width: 180px;
+    cursor: pointer; 
+}
+
+.limit_input{
+    position: absolute;
+    background-color: coral;
+    left: 90%;
+    top: 50px;
+}
+
+.modal_image{
+    width: 75%;
+    height: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    display: block;
+}
